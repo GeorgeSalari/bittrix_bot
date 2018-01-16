@@ -1,0 +1,16 @@
+<div id="procent"><%= @procent %></div>
+
+<script>
+  const myDiv = document.getElementById('procent');
+  const procent = myDiv.innerText;
+  if (procent > 0.5) {
+    $.ajax({
+      url: "/place_buy_order",
+      method: 'post',
+      success: function(data){
+        console.log(data);
+        debugger
+      }
+    })
+  }
+</script>

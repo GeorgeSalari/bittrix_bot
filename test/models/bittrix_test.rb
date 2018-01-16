@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class BittrixControllerTest < ActionDispatch::IntegrationTest
+class BittrixTest < ActiveSupport::TestCase
   # test "the truth" do
   #   assert true
   # end
