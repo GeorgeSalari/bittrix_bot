@@ -1,0 +1,3 @@
+class BittrixController < ApplicationController
+
+end
