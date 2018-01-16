@@ -1,0 +1,2 @@
+class Bittrix < ApplicationRecord
+end
